@@ -1,0 +1,27 @@
+body{
+    margin:0px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+h1{
+    font-size:2em;
+    border-bottom: 2px solid orangered;
+    font-family:'Courier New';
+    width:250px;
+    text-align:center;
+    box-shadow:4px 4px 4px 4px orangered;
+    margin:2px;
+}
+img{
+    width: 450px;
+    height: 300px;
+    margin:10px;
+    transition: all 0.5s;
+}
+img:hover {
+    transform:scale(1.1)
+    
+}
